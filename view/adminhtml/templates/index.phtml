@@ -1,0 +1,56 @@
+<?php
+/**
+ * Copyright © 2016 Jucksearm. All rights reserved.
+ * See LICENSE for license details.
+ */
+
+// @codingStandardsIgnoreFile
+
+/* @var $block \Jucksearm\ModuleCreator\Block\Adminhtml\Creator */
+?>
+<form id="module-creator-form" method="post" action="<?php echo $block->getUrl('*/*/generate') ?>">
+	<input name="form_key" type="hidden" value="<?php echo $block->getFormKey() ?>" />
+	<fieldset class="admin__fieldset">
+		<legend class="admin__legend legend">
+			<span><?php echo __('Module Infomation') ?></span>
+		</legend>
+		<br />
+		<div class="admin__field _required">
+			<label class="admin__field-label">
+				<span><?php echo __('Module Vendor');?></span>
+			</label>
+			<div class="admin__field-control">
+				<input id="module_vendor" name="module_vendor" type="text" class="required-entry admin__control-text" title="<?php echo __('Module Vendor');?>" placeholder="<?php echo __('Name of the Vendor for module e.g. \'Jbdevelop\'') ?>" />
+			</div>
+		</div>
+		<div class="admin__field _required">
+			<label class="admin__field-label">
+				<span><?php echo __('Module Name');?></span>
+			</label>
+			<div class="admin__field-control">
+				<input id="module_name" name="module_name" type="text" class="required-entry admin__control-text" title="<?php echo __('Module Name');?>" placeholder="<?php echo __('Name of the module e.g. \'Tester\'') ?>" />
+			</div>
+		</div>
+		<div class="admin__field _required">
+			<label class="admin__field-label">
+				<span><?php echo __('Module Version');?></span>
+			</label>
+			<div class="admin__field-control">
+				<input id="module_version" name="module_version" type="text" class="required-entry admin__control-text" title="<?php echo __('Module Version');?>" placeholder="<?php echo __('Version of module e.g. \'2.0.0\'') ?>" />
+			</div>
+		</div>	
+	</fieldset>
+</form>
+
+<script>
+require([
+	"jquery",
+	'mage/mage',
+], function($){
+
+//<![CDATA[
+	$('#module-creator-form').mage('form').mage('validation');
+//]]>
+
+});
+</script>

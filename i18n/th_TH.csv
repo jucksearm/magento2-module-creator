@@ -1,0 +1,18 @@
+"Back", "ย้อนกลับ", Jucksearm_ModuleCreator
+"Reset", "ยกเลิก", Jucksearm_ModuleCreator
+"Generate Module","สร้างโมดูล", Jucksearm_ModuleCreator
+"Module Creator","ระบบสร้างโมดูล", Jucksearm_ModuleCreator
+"System", "ระบบ", Jucksearm_ModuleCreator
+"Extensions", "ส่วนเสริม", Jucksearm_ModuleCreator
+"Module Infomation", "ข้อมูลโมดูล", Jucksearm_ModuleCreator
+"Module Type", "ประเภทโมดูล", Jucksearm_ModuleCreator
+"Select Type", "เลือกประเภท", Jucksearm_ModuleCreator
+"Standard", "พื้นฐาน", Jucksearm_ModuleCreator
+"Payment", "ช่องทางชำระเงิน", Jucksearm_ModuleCreator
+"Shipping", "ช่องทางขนส่ง", Jucksearm_ModuleCreator
+"Module Vendor", "ผู้สร้างโมดูล", Jucksearm_ModuleCreator
+"Name of the Vendor for module e.g. 'Jbdevelop'", "ตั้งชื่อสำหรับผู้สร้างโมดูล ตัวอย่าง 'Jbdevelop'", Jucksearm_ModuleCreator
+"Module Name", "ชื่อโมดูล", Jucksearm_ModuleCreator
+"Name of the module e.g. 'Tester'", "ชื่อโมดูล ตัวอย่าง 'Tester'", Jucksearm_ModuleCreator
+"Module Version", "เวอร์ชั่นโมดูล", Jucksearm_ModuleCreator
+"Version of module e.g. '2.0.0'", "เวอร์ชั่นของโมดูล ตัวอย่าง '2.0.0'", Jucksearm_ModuleCreator

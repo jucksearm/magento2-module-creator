@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 Jucksearm. All rights reserved.
+ * See LICENSE for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Jucksearm_ModuleCreator::system_extensions_creator" title="Module Creator" translate="title" module="Jucksearm_ModuleCreator" sortOrder="20" parent="Magento_Integration::system_extensions" action="creator/index" resource="Jucksearm_ModuleCreator::creator"/>
+    </menu>
+</config>

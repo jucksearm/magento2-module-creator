@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 Jucksearm. All rights reserved.
+ * See LICENSE for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+        <route id="{{module_name}}" frontName="{{module_name}}">
+            <module name="{{MODULE_VENDOR}}_{{MODULE_NAME}}" />
+        </route>
+    </router>
+</config>
